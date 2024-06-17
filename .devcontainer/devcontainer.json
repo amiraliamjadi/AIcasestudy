@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "pip install numpy && pip install matplotlib && pip install seaborn && pip install pandas && pip install scikit-learn && pip install ipykernel",
+	"postCreateCommand": "pip install numpy && pip install matplotlib && pip install seaborn && pip install pandas && pip install scikit-learn && pip install ipykernel && pip install numba",
 
 	// Configure tool-specific properties.
 	"customizations": {
